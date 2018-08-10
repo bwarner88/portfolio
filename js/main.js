@@ -1,13 +1,51 @@
 $(document).ready(function() {
 
 
-    /* Scroll hire me button to contact page */
+    //**NAVBAR SCROLL */
     $('.hire-me').click(function() {
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top
         }, 500);
         return false;
     });
+
+    $('#page-profile').click(function() {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+        return false;
+    });
+
+    $('#page-skills').click(function() {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+        return false;
+    });
+
+    $('#page-education').click(function() {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+        return false;
+    });
+
+    $('#page-experience').click(function() {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+        return false;
+    });
+
+    $('##page-contact').click(function() {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+        return false;
+    });
+    
+    
+    
 
     /* For Bootstrap current state on portfolio sorting */
 
